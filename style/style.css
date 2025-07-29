@@ -16,7 +16,7 @@ ul {
 }
 
 .hero {
-   position: relative;
+    position: relative;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -26,7 +26,8 @@ ul {
 
 
 }
-.hero-container{
+
+.hero-container {
     width: 100%;
     height: 100%;
     display: flex;
@@ -138,7 +139,7 @@ ul {
 
 .detail p {
     color: rgb(117, 117, 117);
-    font-size:21px;
+    font-size: 21px;
     font-weight: 400;
     line-height: 30px;
     text-align: left;
@@ -200,30 +201,105 @@ button i {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    display: block; 
+    display: block;
 }
 
 .header-bg {
     position: absolute;
     width: 50%;
-    height: 65vh; 
+    height: 65vh;
 }
 
 
 .hero {
-  position: relative;
+    position: relative;
 }
 
 .main-hero {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 450px;
-  height: 540px;
-  background-image: url(../images/hardy.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  z-index: 2;
-  margin-right: 60px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 450px;
+    height: 540px;
+    background-image: url(../images/hardy.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 2;
+    margin-right: 60px;
+}
+
+/* ===========end header section============ */
+/* ===========start about section============ */
+.about-section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.about {
+    width: 75%;
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+
+    background: rgb(255, 248, 243);
+    padding: 20px;
+}
+
+.inner-details {
+    width: 75%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    flex-direction: column;
+}
+
+.inner-details p {
+    color: rgb(117, 117, 117);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
+.inner-details h1 {
+
+    color: rgb(24, 24, 24);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+
+
+
+}
+
+.inner-details ul li span{
+    font-weight:700;
+
+}
+.inner-details ul li {
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight:400;
+    line-height: 30px;
+    text-align: center;
+    margin: 20px;
+   
+}
+
+.inner-details ul {
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
 }
