@@ -15,6 +15,14 @@ ul {
     list-style: none;
 }
 
+body {
+    overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+    overflow-y: hidden;
+}
+
 .hero {
     position: relative;
     width: 100%;
@@ -238,30 +246,18 @@ button i {
     align-items: center;
     justify-content: center;
     background-color: #fff;
-}
-
-.about {
-    width: 75%;
-    height: 65vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    border-radius: 10px;
-
-    background: rgb(255, 248, 243);
-    padding: 20px;
+    padding: 10%;
 }
 
 .inner-details {
-    width: 75%;
-    height: 40vh;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #fff;
     flex-direction: column;
+    border: 7.25rem solid rgb(255, 248, 243);
+    border-radius: .9rem;
+    padding: .5rem;
 }
 
 .inner-details p {
@@ -284,22 +280,170 @@ button i {
 
 }
 
-.inner-details ul li span{
-    font-weight:700;
+.inner-details ul li span {
+    font-weight: 700;
 
 }
+
 .inner-details ul li {
     color: rgb(117, 117, 117);
     font-size: 16px;
-    font-weight:400;
+    font-weight: 400;
     line-height: 30px;
     text-align: center;
-    margin: 20px;
-   
+
 }
 
 .inner-details ul {
-   display: flex;
-   align-items: center;
-   justify-content: space-evenly;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: .8rem;
 }
+
+/* =====end about section=========== */
+.information {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 10%;
+}
+
+.information h1 {
+    color: rgb(24, 24, 24);
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+}
+
+.information p {
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
+.inner-info {
+    padding: 10%;
+}
+
+.more-info {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.each-info img {
+    margin: .8rem 0;
+}
+
+.each-info p {
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin: .8rem 0;
+}
+
+.each-info h3 {
+    color: rgb(24, 24, 24);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+    margin: .8rem 0;
+}
+
+.each-info {
+    width: 24%;
+    text-align: left;
+    padding: 2%;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+}
+
+/* end information section */
+.summary {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10%;
+}
+
+.summary h1 {
+    color: rgb(24, 24, 24);
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.experience {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.education {
+    width: 48%;
+}
+
+.education hr {
+
+    border: 1px solid rgb(209, 209, 209);
+}
+
+.education h2 {
+    color: rgb(71, 71, 71);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 2rem;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.profation {
+    padding-right: 10%;
+    margin: 2rem 0;
+
+}
+
+.profation h4 {
+    color: rgb(117, 117, 117);
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;
+}
+
+.profation h3 {
+    color: rgb(71, 71, 71);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+
+}
+
+.profation p {
+    color: rgb(117, 117, 117);
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+}
+/* end summary section */
