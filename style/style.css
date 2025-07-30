@@ -494,7 +494,7 @@ button i {
 .form input,textarea {
     width: 100%;
     padding: 15px;
-    font-size: .8;
+    font-size: .8rem;
     border: 1px solid #ddd;
     border-radius: 5px;
     outline: none;

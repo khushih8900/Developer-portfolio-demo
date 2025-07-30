@@ -1,0 +1,178 @@
+/* ==================== Responsive Layout ==================== */
+
+/* Extra Large Devices (Desktops) */
+@media (max-width: 1200px) {
+    .detail h1 {
+        font-size: 65px;
+        line-height: 90px;
+    }
+
+    .developer img {
+        height: 80vh;
+    }
+
+    .main-hero {
+        width: 400px;
+        height: 500px;
+        margin-right: 40px;
+    }
+}
+
+/* Large Devices (Laptops) */
+@media (max-width: 992px) {
+    .nav-bar {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .navigation {
+        width: 100%;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .hero-details {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+
+    .detail {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .detail h1 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+
+    .main-hero {
+        width: 350px;
+        height: 450px;
+        margin: 0 auto;
+    }
+
+    .each-info {
+        width: 45%;
+        margin: 1rem 0;
+    }
+
+    .experience {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .education {
+        width: 100%;
+    }
+
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .contact-info,
+    .form {
+        width: 100%;
+    }
+}
+
+/* Medium Devices (Tablets) */
+@media (max-width: 768px) {
+    .logo {
+        font-size: 35px;
+    }
+
+    .navigation ul li a {
+        margin: 15px;
+        font-size: 14px;
+    }
+
+    .detail h1 {
+        font-size: 45px;
+        line-height: 60px;
+    }
+
+    .detail h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .main-hero {
+        width: 300px;
+        height: 400px;
+    }
+
+    .each-info {
+        width: 100%;
+    }
+}
+
+/* Small Devices (Mobile Landscape) */
+@media (max-width: 576px) {
+    .hero-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .main-hero {
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+    }
+
+    .detail h1 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .detail p {
+        font-size: 16px;
+    }
+
+    .buttons,
+    .active {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .navigation ul {
+        flex-direction: column;
+    }
+
+    .navigation ul li a {
+        margin: 10px 0;
+    }
+}
+
+/* Extra Small Devices (Mobile Portrait) */
+@media (max-width: 400px) {
+    .logo {
+        font-size: 25px;
+    }
+
+    .detail h1 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .detail p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .buttons,
+    .active {
+        font-size: 14px;
+        height: 50px;
+    }
+
+    .each-info {
+        padding: 1rem;
+    }
+
+    .inner-details h1 {
+        font-size: 24px;
+    }
+}
