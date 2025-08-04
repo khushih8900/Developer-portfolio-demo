@@ -16,6 +16,7 @@
         height: 500px;
         margin-right: 40px;
     }
+
 }
 
 /* Large Devices (Laptops) */
@@ -76,91 +77,217 @@
     .form {
         width: 100%;
     }
-}
-
-/* Medium Devices (Tablets) */
-@media (max-width: 768px) {
-    .logo {
-        font-size: 35px;
-    }
-
-    .navigation ul li a {
-        margin: 15px;
-        font-size: 14px;
-    }
-
-    .detail h1 {
-        font-size: 45px;
-        line-height: 60px;
-    }
-
-    .detail h2 {
-        font-size: 30px;
-        line-height: 40px;
-    }
-
-    .main-hero {
-        width: 300px;
-        height: 400px;
-    }
-
-    .each-info {
-        width: 100%;
-    }
-}
-
-/* Small Devices (Mobile Landscape) */
-@media (max-width: 576px) {
-    .hero-container {
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .main-hero {
-        width: 100%;
-        height: auto;
-        margin-right: 0;
-    }
-
-    .detail h1 {
-        font-size: 35px;
-        line-height: 50px;
-    }
-
-    .detail p {
-        font-size: 16px;
-    }
 
     .buttons,
     .active {
         width: 100%;
-        margin-bottom: 10px;
+        margin: 0;
+
     }
 
-    .navigation ul {
-        flex-direction: column;
+    .contact-info {
+        margin-bottom: 1rem;
     }
 
-    .navigation ul li a {
-        margin: 10px 0;
-    }
-}
 
-/* Extra Small Devices (Mobile Portrait) */
-@media (max-width: 400px) {
-    .logo {
-        font-size: 25px;
+
+
+    /* Medium Devices (Tablets) */
+    @media (max-width: 768px) {
+        .logo {
+            font-size: 35px;
+        }
+
+        .navigation ul li a {
+            margin: 15px;
+            font-size: 14px;
+        }
+
+        .header-bg {
+            position: absolute;
+            width: auto;
+            height: auto;
+        }
+
+        .detail h1 {
+            font-size: 45px;
+            line-height: 60px;
+        }
+
+        .detail h2 {
+            font-size: 30px;
+            line-height: 40px;
+        }
+
+        .main-hero {
+            width: 300px;
+            height: 400px;
+        }
+
+        .inner-details {
+            border: 2rem solid rgb(255, 248, 243);
+        }
+
+        .inner-details ul {
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+
+        }
+
+        .each-info {
+            width: 100%;
+        }
+
+        .buttons,
+        .active {
+            width: 100%;
+            margin: 0;
+
+        }
+
+        .contact-info {
+            margin-bottom: 1rem;
+        }
+
+        .information {
+            padding: 5%;
+
+        }
+
+        .more-info {
+
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+
+
     }
 
-    .detail h1 {
-        font-size: 30px;
-        line-height: 45px;
+    /* Small Devices (Mobile Landscape) */
+    @media (max-width: 576px) {
+        .hero-container {
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .main-hero {
+            width: 100%;
+            height: auto;
+            margin-right: 0;
+        }
+
+        .detail h1 {
+            font-size: 35px;
+            line-height: 50px;
+        }
+
+        .detail p {
+            font-size: 16px;
+        }
+
+        .buttons,
+        .active {
+            width: 100%;
+            margin: 0;
+
+        }
+
+        .navigation ul {
+            flex-direction: column;
+        }
+
+        .navigation ul li a {
+            margin: 10px 0;
+        }
+
+        .inner-details {
+            border: 2rem solid rgb(255, 248, 243);
+        }
+
+        .inner-details ul {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .information {
+            padding: 5%;
+
+        }
+
+        .more-info {
+            width: 100%;
+            flex-direction: column;
+        }
+
+        .contact-info {
+            margin-bottom: 1rem;
+        }
+
     }
 
-    .detail p {
-        font-size: 14px;
-        line-height: 24px;
+    /* Extra Small Devices (Mobile Portrait) */
+    @media (max-width: 400px) {
+        .logo {
+            font-size: 25px;
+        }
+
+        .hero {
+            width: 100%;
+            height: 100%;
+            
+         
+
+        }
+
+        .detail h1 {
+            font-size: 30px;
+            line-height: 45px;
+        }
+
+        .detail p {
+            font-size: 14px;
+            line-height: 24px;
+        }
+
+        .navigation ul {
+            display: none;
+        }
+
+        .developer {
+            display: none;
+        }
+
+        .hero-content {
+            width: 100%;
+        }
+
+        .nav-bar {
+            width: 100%;
+            display: flex;
+
+
+        }
+        .btn{
+            width: 50%;
+        }
+
+        .hire-me {
+            width: 50%;
+        }
+
+        .navigation ul {
+            display: none;
+        }
+
+        .active {
+            margin-top: 1rem;
+        }
+
     }
+
+
 
     .buttons,
     .active {
@@ -172,7 +299,49 @@
         padding: 1rem;
     }
 
+    .about-section {
+        padding: 0;
+    }
+
+    .inner-details {
+        border: 2rem solid rgb(255, 248, 243);
+    }
+
+    .inner-details ul {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
     .inner-details h1 {
         font-size: 24px;
+    }
+
+    .information {
+        padding: 5%;
+
+    }
+
+    .more-info {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .contact-container {
+        padding: 5%;
+    }
+
+    .contact-info {
+        width: 100%;
+        margin-bottom: 1rem;
+
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .buttons {
+        margin: 0;
     }
 }

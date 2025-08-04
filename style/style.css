@@ -24,13 +24,12 @@ body::-webkit-scrollbar {
 }
 
 .hero {
-    position: relative;
     width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: end;
-    justify-content: flex-end;
-    background: rgb(255, 248, 243);
+    height: 100vh;    
+    background-image: url(../images/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 
 }
@@ -39,26 +38,20 @@ body::-webkit-scrollbar {
     width: 100%;
     height: 100%;
     display: flex;
+    justify-content: flex-end;
 }
 
-.developer {
-    padding: 10px;
-    margin-left: 23px;
-}
 
-.developer img {
-    height: 90vh;
-    display: block;
-}
+
 
 
 
 .nav-bar {
-    width: 100%;
+    width: 90%;
     height: 20%;
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: space-between;
     padding: 30px;
 }
 
@@ -68,6 +61,9 @@ body::-webkit-scrollbar {
     font-size: 45px;
     font-weight: 800;
     text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 
 }
 
@@ -91,6 +87,7 @@ body::-webkit-scrollbar {
     width: 100%;
     align-items: center;
     justify-content: flex-end;
+    text-align: right;
 }
 
 .navigation ul li a {
@@ -210,20 +207,6 @@ button i {
     position: relative;
 }
 
-.main-hero {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 450px;
-    height: 540px;
-    background-image: url(../images/hardy.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    z-index: 2;
-    margin-right: 60px;
-    display: block;
-}
 
 /* ===========end header section============ */
 /* ===========start about section============ */
@@ -404,13 +387,13 @@ button i {
     margin-bottom: 2rem;
 }
 
-.profation {
+.profession {
     padding-right: 10%;
     margin: 2rem 0;
 
 }
 
-.profation h4 {
+.profession h4 {
     color: rgb(117, 117, 117);
     font-size: 1rem;
     font-weight: 600;
@@ -418,7 +401,7 @@ button i {
     text-align: left;
 }
 
-.profation h3 {
+.profession h3 {
     color: rgb(71, 71, 71);
     font-size: 25px;
     font-weight: 700;
@@ -427,7 +410,7 @@ button i {
 
 }
 
-.profation p {
+.profession p {
     color: rgb(117, 117, 117);
     font-size: .9rem;
     font-weight: 400;
@@ -513,3 +496,4 @@ button i {
  
   
 }
+
